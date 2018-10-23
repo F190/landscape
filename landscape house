@@ -1,0 +1,29 @@
+x = 50
+y = 50
+
+def setup():
+    size(640, 480)
+    
+def draw():
+    global x, y
+    background(255)
+    fill(0)
+    rect (0, 440, 640, 2)
+    fill(255, 0, 255)
+    noStroke()
+    rect (200, 300, 200, 140)
+    ellipse(300, 300, 200, 140)
+    fill(150, 150, 150)
+    rect (250, 390, 30, 50)
+    
+    ellipse (x, y, 50, 30)
+    ellipse (x+20, y, 40, 25)
+    ellipse (x+30, y+10, 40, 30)
+    ellipse (x+45, y+15, 50, 30)
+    x += 1
+    
+    if x >= 480:
+        x = 0
+
+    
+    
