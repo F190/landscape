@@ -1,5 +1,8 @@
-x = 50
-y = 50
+#Figo
+
+
+x = 50              
+y = 50          
 
 def setup():
     size(640, 480)
